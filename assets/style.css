@@ -12,7 +12,7 @@ body {
 }
 
 /* style for heading and nav bar */
-.header {
+section.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -20,18 +20,18 @@ body {
 }
 
 /* style for Horiseon name */
-.header h1 {
+section.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* style for "seo" in Horiseon */
-.header h1 span.seo {
+section.header h1 span.seo {
     color: #d9dcd6;
 }
 
 /* style for nav bar */
-.header div {
+section.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -40,12 +40,12 @@ body {
 }
 
 /* no bullets/styling for nav bar */
-.header div ul {
+section.header nav ul {
     list-style-type: none;
 }
 
 /* nav bar elements style */
-.header div ul li {
+section.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -62,7 +62,7 @@ p {
 }
 
 /* main background image for page */
-.hero {
+figure.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -72,26 +72,26 @@ p {
 }
 
 /* for "search engine optimization" and "social media marketing", float image on the left*/
-.float-left {
+img.float-left {
     float: left;
     margin-right: 25px;
 }
 
 /* for "online reputation management", float image right */
-.float-right {
+img.float-right {
     float: right;
     margin-left: 25px;
 }
 
 /* sets block display for content */
-.content {
+main.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 /* right side-bar styling */
-div.benefits {
+aside.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -103,64 +103,64 @@ div.benefits {
 }
 
 /* styling for "lead generation" section in sidebar*/
-div.benefit-lead {
+section.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* styling for "brand awareness" section in sidebar*/
-div.benefit-brand {
+section.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* styling for "cost management" section in sidebar*/
-div.benefit-cost {
+section.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* styling for "lead generation" title in sidebar*/
-div.benefit-lead h3 {
+section.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* styling for "brand awareness" title in sidebar*/
-div.benefit-brand h3 {
+section.benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* styling for "cost management" title in sidebar*/
-div.benefit-cost h3 {
+section.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* styling for "lead generation" logo in sidebar*/
-div.benefit-lead img {
+section.benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* styling for "brand awareness" logo in sidebar*/
-div.benefit-brand img {
+section.benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* styling for "cost management" logo in sidebar*/
-div.benefit-cost img {
+section.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* styling for "search engine optimization" section in contents*/
-div.search-engine-optimization {
+article.search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -170,7 +170,7 @@ div.search-engine-optimization {
 }
 
 /* styling for "online repuation management" section in contents*/
-div.online-reputation-management {
+article.online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -180,7 +180,7 @@ div.online-reputation-management {
 }
 
 /* styling for "social media marketing" section in contents*/
-div.social-media-marketing {
+article.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -190,40 +190,40 @@ div.social-media-marketing {
 }
 
 /* styling for "search engine optimization" image in contents*/
-.search-engine-optimization img{
+article.search-engine-optimization img{
     max-height: 200px;
 }
 
 /* styling for "online repuation management" image in contents*/
-.online-reputation-management img {
+article.online-reputation-management img {
     max-height: 200px;
 }
 
 /* styling for "social media marketing" image in contents*/
-.social-media-marketing img {
+article.social-media-marketing img {
     max-height: 200px;
 }
 
 /* styling for "search engine optimization" title in contents*/
-.search-engine-optimization h2 {
+article.search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* styling for "online repuation management" title in contents*/
-.online-reputation-management h2 {
+article.online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* styling for "social media marketing" title in contents*/
-.social-media-marketing h2 {
+article.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* footer section style */
-.footer {
+footer.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -231,6 +231,6 @@ div.social-media-marketing {
 }
 
 /* footer title style */
-.footer h2 {
+footer.footer h2 {
     font-size: 20px;
 }
